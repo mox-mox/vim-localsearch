@@ -8,7 +8,7 @@ function! localsearch#Toggle()
 	else
 		:call localsearch#Enable()
 	endif
-	if get(g:, 'loaded_airline_localsearch', 0)
+	if get(g:, 'airline#extensions#localsearch#loaded', 0)
 		call airline#update_statusline()
 	endif
 endfunction

@@ -14,7 +14,7 @@ set cpo&vim
 
 " Toggle window-local searching
 nnoremap <script> <Plug>localsearch_toggle <SID>localsearch_toggle
-nnoremap <silent> <SID>localsearch_toggle :call localsearch#Toggle()<cr>
+nnoremap <silent> <SID>localsearch_toggle :call localsearch#Toggle()<CR>
 
 let &cpo= s:keepcpo
 unlet s:keepcpo
