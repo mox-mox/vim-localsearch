@@ -1,0 +1,17 @@
+diff --git a/autoload/airline/extensions.vim b/autoload/airline/extensions.vim
+index 3b36ba9..faa4bae 100644
+--- a/autoload/airline/extensions.vim
++++ b/autoload/airline/extensions.vim
+@@ -172,6 +172,11 @@ function! airline#extensions#load()
+     call add(loaded_ext, 'ctrlp')
+   endif
+ 
++  if get(g:, 'loaded_localsearch', 0)
++    call airline#extensions#localsearch#init(s:ext)
++    call add(loaded_ext, 'localsearch')
++  endif
++
+   if get(g:, 'CtrlSpaceLoaded', 0)
+     call airline#extensions#ctrlspace#init(s:ext)
+     call add(loaded_ext, 'ctrlspace')
+
