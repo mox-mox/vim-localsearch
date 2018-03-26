@@ -45,3 +45,8 @@ How do I use it?
    search in the second window will be re-activated. Fancy again!
 
 
+Vim-Airline integration
+-----------------------
+I wrote a small extension to vim-airline that will show an indicator in the statusline when localsearch is activated. It should load automatically when you have both plugins installed and look like this:
+![image](TODO)
+I hope it will be included in vim-airline soon.
