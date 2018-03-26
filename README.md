@@ -48,5 +48,5 @@ How do I use it?
 Vim-Airline integration
 -----------------------
 I wrote a small extension to vim-airline that will show an indicator in the statusline when localsearch is activated. It should load automatically when you have both plugins installed and look like this:
-![image](TODO)
+![image](https://raw.githubusercontent.com/mox-mox/vim-localsearch/master/vim-airline-localsearch-indicator.png)
 I hope it will be included in vim-airline soon.
