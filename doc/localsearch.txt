@@ -2,12 +2,11 @@
 *localsearch*
 
 
-                        _____ __             ___ __         ~
-                       / ___// /_____ ______/ (_) /____     ~
-                       \__ \/ __/ __ `/ ___/ / / __/ _ \    ~
-                      ___/ / /_/ /_/ / /  / / / /_/  __/    ~
-                     /____/\__/\__,_/_/  /_/_/\__/\___/     ~
-                                                            ~
+             __                     __                          __     ~
+            / /   ____  _________ _/ /_______  ____ ___________/ /_    ~
+           / /   / __ \/ ___/ __ `/ / ___/ _ \/ __ `/ ___/ ___/ __ \   ~
+          / /___/ /_/ / /__/ /_/ / (__  )  __/ /_/ / /  / /__/ / / /   ~
+         /_____/\____/\___/\__,_/_/____/\___/\__,_/_/   \___/_/ /_/    ~
 
 
 
@@ -82,17 +81,19 @@ term (see :help @/) when a Vim-window gains or looses focus.
 ------------------------------------------------------------------------------
 4.1. Airline                                               *localsearch-airline*
 
-TODO: I'm writing an extension for airline, but it is not yet in the airline
-repo. To use it, copy the extension file in localsearch-airline-extension into
-the appropriate folder in the airline plugin. Then
-	* EITHER set g:airline_extensions to include 'localsearch'. Remember to
-	  include all vim-airline extensions you want loaded as vim-airline will
-	  only load the specified extensions if the g:airline_extensions is set.
-	* OR apply the patch in
-	  vim-airline/autoload/add_localsearch_autoloading.path to add autoloading
-	  for the localsearch vim-airline extension.
-Note: You will have to list all airline extensions that you want to have
-loaded when you set g:airline_extensions.
+Vim-Airline ships with an extension for localsearch. When both plugins are
+installed, it should work out of the box and provide a handy indicator to the
+left saying 'LS' on a red background when localsearch is active.
+
+Whe localsearch is inactive (everything as usual):
+ NORMAL  .master  localsearch.txt[+]  ...................
+
+When localsearch is active:
+ LS  NORMAL  .master  localsearch.txt[+]  ..............
+
+
+You can disable localsearch indicator integration by setting >
+  let g:airline#extensions#localsearch#enabled = 0
 
 ==============================================================================
 5. About                                                     *localsearch-about*
