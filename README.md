@@ -25,7 +25,7 @@ Imagine you want to trace a variable trough a codebase:
 
 How do I use it?
 ----------------
-1. Install it using your favorite plugin manager, e.g. `Plug 'mox-mox/vim-starlite'` for vim-plug.
+1. Install it using your favorite plugin manager, e.g. `Plug 'mox-mox/vim-localsearch'` for vim-plug.
 2. Copy the mappings in :help starlite-recommended into your .vimrc/init.vim
 3. If you use vim-airline and want a visual indicator when localsearch is
    active, copy the experimental vim-airline extension file to the
