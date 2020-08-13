@@ -36,7 +36,7 @@ How do I use it?
 	* OR apply the patch in
 	  vim-airline/autoload/add_localsearch_autoloading.path to add autoloading
 	  for the localsearch vim-airline extension.
-4. Open a file, hit <leader>/ to enable localsearch. Open a split, move the
+4. Open a file, hit \<leader\>/ to enable localsearch. Open a split, move the
    cursor over a word and press ` * `. Vim will search for that word as it would
    without starlight. Now, move the cursor over another word and press ` * ` again.
    Instead of replacing the search term, Vim will now search for both terms.
