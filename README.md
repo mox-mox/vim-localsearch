@@ -38,7 +38,7 @@ How do I use it?
 	  for the localsearch vim-airline extension.
 4. Open a file, hit \<leader\>/ to enable localsearch. Open a split, move the
    cursor over a word and press ` * `. Vim will search for that word as it would
-   without starlight. Now, move the cursor over another word and press ` * ` again.
+   without localsearch. Now, move the cursor over another word and press ` * ` again.
    Instead of replacing the search term, Vim will now search for both terms.
 5. Now, move back to the first split window. The search highlighting will
    disappear. Search for something, then move back to the second window. Your
